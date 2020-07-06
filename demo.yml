@@ -1,5 +1,5 @@
 - hosts: 192.168.128.232
   tasks:
     - name: 测试任务
-      --- shell: echo hello_world
-      command: echo hello_world
+      shell: echo hello_world
+      ---- command: echo hello_world
