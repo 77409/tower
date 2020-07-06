@@ -1,4 +1,4 @@
-- hosts: 192.168.0.0/16
+- hosts: 192.168.128.232
   tasks:
     - name: 测试模板
       shell: echo hello world
